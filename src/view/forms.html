@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <div>
+      <form>
+        <label for="category">Category</label>
+        <input
+          type="text"
+          id="category"
+          name="Category"
+          placeholder="Product Category"
+        />
+
+        <label for="name">Product Name</label>
+        <input type="text" id="name" name="name" placeholder="Product Name" />
+
+        <label for="Description">Description</label>
+        <input
+          type="text"
+          id="desc"
+          name="Description"
+          placeholder="Product Description"
+        />
+
+        <label for="Price">Price</label>
+        <input
+          type="text"
+          id="price"
+          name="price"
+          placeholder="Product Price"
+        />
+
+        <label for="quantity">Quantity in Stock</label>
+        <input
+          type="text"
+          id="quant"
+          name="quantity"
+          placeholder="Product quantity"
+        />
+
+        <label for="country">SMU(Stock Maintenance Unit)</label>
+        <select id="row" name="Row">
+          <option value="#">A</option>
+          <option value="#">B</option>
+          <option value="#">C</option>
+        </select>
+        <select name="Column" id="column">
+          <option value="#">1</option>
+          <option value="#">2</option>
+          <option value="#">3</option>
+        </select>
+
+        <input id="btn" type="submit" value="Save" />
+      </form>
+    </div>
+    <script src="Script.js"></script>
+  </body>
+</html>
