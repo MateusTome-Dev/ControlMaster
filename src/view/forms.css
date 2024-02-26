@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 body{background-color: rgb(2, 2, 2);
 font-family: 'montserrat',sans-serif;}
+:root {
+  --primary-color: #000000;
+  --secondary-color: #f6f6f6;
+  --tertiary-color: #0B60B0;
+  --hover-color: #272727;
+}
+.header{
+  text-align: center;
+  color: var(--secondary-color);
+}
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -50,3 +60,15 @@ input[type=text], select {
 .title{font-size: 26px;
   font-weight: 800;
 color: white;}
+.footer {
+  height: 70px;
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.footer p{
+  padding: 14px;
+}

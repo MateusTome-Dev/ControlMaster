@@ -102,7 +102,7 @@ body {
 
 .footer {
     padding: 14px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     background-color: var(--tertiary-color);
     text-align: center;
     font-family: 'Montserrat', sans-serif;

@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="forms.css" />
     <title>Cadastro</title>
   </head>
   <body>
+    <header>
+      <h1 class="header"><B>FORM</B></h1>
+    </header>
     <div class="div1">
       <div class="div2">
       <form>
@@ -48,15 +52,15 @@
         <label class="title"  for="country">SMU(Stock Maintenance Unit)</label>
         <select id="row" name="Row">
           <option value="#"></option>
-          <option value="#">A</option>
-          <option value="#">B</option>
-          <option value="#">C</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
         </select>
         <select name="Column" id="column">
           <option value="#"></option>
-          <option value="#">1</option>
-          <option value="#">2</option>
-          <option value="#">3</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
         </select>
 
         <input id="btn" type="submit" value="Save" />
@@ -64,5 +68,8 @@
     </div>
   </div>
     <script src="Script.js"></script>
+    <footer class="footer">
+      <p>Developed by BackGuys</p>
+  </footer> 
   </body>
 </html>
