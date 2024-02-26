@@ -7,9 +7,10 @@
     <title>Cadastro</title>
   </head>
   <body>
-    <div>
+    <div class="div1">
+      <div class="div2">
       <form>
-        <label for="category">Category</label>
+        <label class="title" for="category">Category</label>
         <input
           type="text"
           id="category"
@@ -17,10 +18,10 @@
           placeholder="Product Category"
         />
 
-        <label for="name">Product Name</label>
+        <label class="title"  for="name">Product Name</label>
         <input type="text" id="name" name="name" placeholder="Product Name" />
 
-        <label for="Description">Description</label>
+        <label class="title"  for="Description">Description</label>
         <input
           type="text"
           id="desc"
@@ -28,7 +29,7 @@
           placeholder="Product Description"
         />
 
-        <label for="Price">Price</label>
+        <label class="title"  for="Price">Price</label>
         <input
           type="text"
           id="price"
@@ -36,7 +37,7 @@
           placeholder="Product Price"
         />
 
-        <label for="quantity">Quantity in Stock</label>
+        <label class="title"  for="quantity">Quantity in Stock</label>
         <input
           type="text"
           id="quant"
@@ -44,13 +45,15 @@
           placeholder="Product quantity"
         />
 
-        <label for="country">SMU(Stock Maintenance Unit)</label>
+        <label class="title"  for="country">SMU(Stock Maintenance Unit)</label>
         <select id="row" name="Row">
+          <option value="#"></option>
           <option value="#">A</option>
           <option value="#">B</option>
           <option value="#">C</option>
         </select>
         <select name="Column" id="column">
+          <option value="#"></option>
           <option value="#">1</option>
           <option value="#">2</option>
           <option value="#">3</option>
@@ -59,6 +62,7 @@
         <input id="btn" type="submit" value="Save" />
       </form>
     </div>
+  </div>
     <script src="Script.js"></script>
   </body>
 </html>
